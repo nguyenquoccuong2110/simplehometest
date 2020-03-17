@@ -1,0 +1,225 @@
+.boximg_main
+{
+  width: 100%;
+  overflow: hidden;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.img_maintop
+{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+.img_maintop h1
+{
+  color: #231f20;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  left: 0%;
+  font-size: 2vw;
+  line-height: 1em;
+  z-index: 12;
+}
+.img_maintop h2
+{
+  color: #231f20;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  right: 6%;
+  text-transform: uppercase;
+  font-size: 1.8vw;
+  line-height: 1.3em;
+  z-index: 11;
+  text-shadow: 6px 8px 10px #c3bdbd;
+}
+.img_maintop h1 span, .img_maintop h2 span
+{
+  color: #00a651;
+}
+.img_maintop h3
+{
+  color: #939598;
+  font-size: 2.2vw;
+  text-align: left;
+  position: absolute;
+  left: 25%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  z-index: 10;
+}
+.img_maintop h3 span
+{
+  font-size: 13px;
+}
+.img_maintop img
+{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.boximg_main .img_maintop:last-child img
+{
+  margin-top: -1px;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+.header-transparent #main-nav > li > a
+{
+  font-weight: bold;
+  font-family: 'Baomoi_gdi_0', Arial, Tahoma;
+  font-size: 17px;
+  color: #4d4d4d;
+}
+.header-top.top-layout-03
+{
+  background: #14a751 url(../img/bg-top.png) no-repeat scroll center top;
+}
+.boxlogo .header-logo
+{
+
+}
+.header-main2
+{
+  height: 50px;
+}
+.header-main2 #main-nav > li > a,.header-main2 .utility-nav .search-bar
+{
+  line-height: 50px;
+}
+.header-info
+{
+  text-align: center;
+}
+.header-info h1
+{
+  color: #231f20;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  left: 0%;
+  font-size: 3vw;
+  line-height: 1em;
+  z-index: 12;
+  text-align: center;
+}
+.header-info h1 span
+{
+  color: #00a651;
+}
+.header-main2 .header-logo
+{
+  display: none;
+}
+.cateproduct
+{
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+.cateproduct h1
+{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.cateproduct .swin-btn
+{
+  background-color: #10552b;
+  border: 1px solid #10552b;
+  border-radius: 15px;
+}
+.cateproduct .swin-sc-isotope .grid-item.grid-item-h2
+{
+  height: 400px;
+}
+.cateproduct .swin-sc-isotope .grid-item.grid-item-h1
+{
+  height: 200px;
+}
+.cateproduct .swin-sc-isotope .grid-item
+{
+  padding: 4px;
+}
+.cateproduct .swin-sc-isotope .grid-item:hover
+{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.cateproduct .gallery-section-01
+{
+  background-color: #fff;
+}
+.cateproduct .swin-sc-isotope .grid-item .gallery-title
+{
+  left: 0px;
+}
+.cateproduct .swin-sc-isotope .grid-item .title
+{
+  font-family: 'Baomoi_gdi_0', Arial, Tahoma, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  height: 100%;
+}
+.cateproduct .swin-sc-isotope .grid-item .title:hover
+{
+  color: #0066b3;
+}
+footer {
+  background-color: #008a3c;
+}
+@media screen and (max-width: 800px) {
+  footer .boxbarcode
+  {
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+  }
+  .cateproduct .swin-sc-isotope .grid-item img
+  {
+    width: 100%;
+  }
+  .box_info_footer
+  {
+    border-right: none;
+  }
+
+  .cateproduct .swin-btn{
+    padding: 12px 25px;
+    line-height: 10px;
+    padding-top: 10px;
+  }
+  .cateproduct .swin-sc-isotope .grid-item.grid-item-h2{
+    height: 200px;
+  }
+  .cateproduct .swin-sc-isotope .grid-item.grid-item-h1
+  {
+	  width: 100%;
+  }
+  .cateproduct .swin-sc-isotope .grid-item.grid-item-h2
+  {
+	  width: 100%;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .cateproduct h1
+  {
+    text-align: center;
+  }
+  .cateproduct .swin-sc-isotope .grid-item .title
+  {
+	  opacity: 1;
+	  top: 27%;
+	  z-index: 11111;
+  }
+}
